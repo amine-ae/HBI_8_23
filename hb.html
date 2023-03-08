@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="hb.css">
+        <script src="funcs.js"></script>
+        <title>Happy Birthday</title>
+    </head>
+    <body onload=playaudio()>
+        
+        
+        <div id="celib" class="confetti">
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+        </div>
+
+        <div id="audiobox" onclick= playaudio() style="color: yellowgreen; font-size : 5pt; margin-right: 95%; margin-top: 0%; text-align: center;">
+             <audio id="audio1" autoplay>
+                 <source  src="./songs/hp.mp3" type="audio/mp3">
+             </audio>
+        </div> 
+      
+        <div id="greeting" class="box-div">
+            <image style="height: 150px; width: 150px;" id="img-greeting" src="./images/cake.png"></image>
+            <h1 id="text-greeting" class="txt-div">
+             On your special day, I just wanted to let you know how much i apperciate your friendship 
+             and all the wonderful memories we have shared. </br>  </br>
+             Happy birthday <span class="name">Ikram</span>, May this year be even better than the last !
+            </h1>
+        </div>           
+       
+    </body>
+</html>

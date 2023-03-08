@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Marhey');
+body {
+    background-image:url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Marhey';
+    font-size: 8pt;
+    
+}
+
+.box-div{
+    background-color: #1d1d1d;
+    opacity: 95%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border : 3px solid white;
+}
+
+.txt-div {
+color: white;
+}
+
+.name {
+    color: #d786fc;
+}
+
+#answer {
+ font-size: 10pt;
+}
+._input {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 12pt;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid white;
+    outline: none;
+    
+}
+._btn {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid white;
+    outline: none;
+    margin : 10px;
+    width: 250px;
+}
+
+#answerdiv {
+    visibility: hidden;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #bb86fc;
+  }
+
+#audiobox {
+ align-self: start;
+}
