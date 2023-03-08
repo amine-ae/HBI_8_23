@@ -38,3 +38,11 @@ function myfun2(){
 function lastpage() {
     window.location.href = "./lpage.html"
 }
+
+function counter(){
+    setTimeout(myfun3,40000)
+}
+
+function myfun3() {
+    window.location.href = "./home.html"
+}
