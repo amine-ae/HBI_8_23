@@ -40,7 +40,7 @@ function lastpage() {
 }
 
 function counter(){
-    setTimeout(myfun3,30000)
+    setTimeout(myfun3,25000)
 }
 
 function myfun3() {
